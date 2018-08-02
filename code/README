@@ -1,0 +1,7 @@
+Disclaimer: This program may not work with your specific sequences as it has not been optimized for every scenario. 
+
+Designer.py is a python file that is used to visualize the gRNA as well as the homology arm primers used for our a CRISPR flag insertion preceding a stop codon. It is run with our specific paramters from main.py, but those paramters can be changed for your specific primers and gRNA. 
+
+The program will generate homology arms of a specified length away from your cut site and save them in .txt files which can be fed to a primer generation tool online such as by NCBI. Designer.py confirms all sequences given to it as well as the sequence printed to the screen. 
+
+Designer.py also allows for the addition of gibson assembly sequences and gRNA overhangs as specified by the protocols in ../README. 
